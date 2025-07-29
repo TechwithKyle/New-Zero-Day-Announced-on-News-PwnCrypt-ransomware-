@@ -76,13 +76,13 @@ DeviceNetworkEvents
   - Blocks ongoing exfiltration or communication with C2 servers
     
 - Kill the parent process via Live Response
- - Identifies malicious processes (e.g., Powershell or senseir.exe)
- - Terminate the process that's actively encrypting files and downloading payloads
+  - Identifies malicious processes (e.g., Powershell or senseir.exe)
+  - Terminate the process that's actively encrypting files and downloading payloads
     
 - Collect forensic artifacts (memory dump, process tree, script paths, and command history)
- - This helps understand how the ransomware was delivered and executed
- - Useful for post-incident analysis and possibly reversing the payload
- - May contain keys and decryption methods in memory
+  - This helps understand how the ransomware was delivered and executed
+  - Useful for post-incident analysis and possibly reversing the payload
+  - May contain keys and decryption methods in memory
     
 - Restore affected files from backups (if available)
 
